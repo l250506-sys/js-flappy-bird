@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#canvas1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+    height:500px;
+    border:2px solid black;
+}
+
+#player,#background,#pipe,#chota{
+    display: none;
+}
+
+#start-dialog{
+    display: none;
+    position: absolute;
+    height:200px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(181, 205, 247);
+    border-radius: 30px;
+    border: solid black 2px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: serif;
+}
+.space-start{
+    background-color: rgb(135, 201, 135);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    border-radius: 30px;
+}
